@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background: rgb(35, 5, 73);
+    padding: 0px 20px;
 }
 
 .h3dh1{
@@ -16,11 +17,15 @@
     color: white;
     font-family: Montserrat;
     font-size: 24px;
+  
 }
 
-.des, .dir, .desi{
+.des, .der, .desi{
     width: 90%;
     min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .des img, .dir img, .desi img{
