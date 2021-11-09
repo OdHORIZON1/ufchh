@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/ufchh/static/css/main.b6a96a4e.chunk.css",
+    "main.js": "/ufchh/static/js/main.e7f35d72.chunk.js",
+    "main.js.map": "/ufchh/static/js/main.e7f35d72.chunk.js.map",
+    "runtime-main.js": "/ufchh/static/js/runtime-main.200a0d40.js",
+    "runtime-main.js.map": "/ufchh/static/js/runtime-main.200a0d40.js.map",
+    "static/js/2.a33a994f.chunk.js": "/ufchh/static/js/2.a33a994f.chunk.js",
+    "static/js/2.a33a994f.chunk.js.map": "/ufchh/static/js/2.a33a994f.chunk.js.map",
+    "index.html": "/ufchh/index.html",
+    "static/css/main.b6a96a4e.chunk.css.map": "/ufchh/static/css/main.b6a96a4e.chunk.css.map",
+    "static/js/2.a33a994f.chunk.js.LICENSE.txt": "/ufchh/static/js/2.a33a994f.chunk.js.LICENSE.txt",
+    "static/media/appart.b7eb965f.jpg": "/ufchh/static/media/appart.b7eb965f.jpg",
+    "static/media/bureau.4589f90c.jpg": "/ufchh/static/media/bureau.4589f90c.jpg",
+    "static/media/fdm.f7e41ba8.jpg": "/ufchh/static/media/fdm.f7e41ba8.jpg",
+    "static/media/hero.css": "/ufchh/static/media/hero.068f4239.jpg",
+    "static/media/hotel.4e7187a5.jpg": "/ufchh/static/media/hotel.4e7187a5.jpg",
+    "static/media/locaux.ed21eab0.jpg": "/ufchh/static/media/locaux.ed21eab0.jpg",
+    "static/media/logo.9dbe7911.png": "/ufchh/static/media/logo.9dbe7911.png",
+    "static/media/maison.87bf5df9.jpg": "/ufchh/static/media/maison.87bf5df9.jpg",
+    "static/media/map.511111de.png": "/ufchh/static/media/map.511111de.png",
+    "static/media/restau.6b33c9ad.jpg": "/ufchh/static/media/restau.6b33c9ad.jpg",
+    "static/media/demande.css": "/ufchh/static/media/serv.f8468a9f.jpg",
+    "static/media/villa.42cb7740.jpg": "/ufchh/static/media/villa.42cb7740.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.200a0d40.js",
+    "static/js/2.a33a994f.chunk.js",
+    "static/css/main.b6a96a4e.chunk.css",
+    "static/js/main.e7f35d72.chunk.js"
+  ]
+}
