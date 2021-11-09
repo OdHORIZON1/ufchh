@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ufchh/static/css/main.b6a96a4e.chunk.css",
-    "main.js": "/ufchh/static/js/main.76446454.chunk.js",
-    "main.js.map": "/ufchh/static/js/main.76446454.chunk.js.map",
+    "main.css": "/ufchh/static/css/main.3e5a768b.chunk.css",
+    "main.js": "/ufchh/static/js/main.b6a7e32b.chunk.js",
+    "main.js.map": "/ufchh/static/js/main.b6a7e32b.chunk.js.map",
     "runtime-main.js": "/ufchh/static/js/runtime-main.200a0d40.js",
     "runtime-main.js.map": "/ufchh/static/js/runtime-main.200a0d40.js.map",
     "static/js/2.a33a994f.chunk.js": "/ufchh/static/js/2.a33a994f.chunk.js",
     "static/js/2.a33a994f.chunk.js.map": "/ufchh/static/js/2.a33a994f.chunk.js.map",
     "index.html": "/ufchh/index.html",
-    "static/css/main.b6a96a4e.chunk.css.map": "/ufchh/static/css/main.b6a96a4e.chunk.css.map",
+    "static/css/main.3e5a768b.chunk.css.map": "/ufchh/static/css/main.3e5a768b.chunk.css.map",
     "static/js/2.a33a994f.chunk.js.LICENSE.txt": "/ufchh/static/js/2.a33a994f.chunk.js.LICENSE.txt",
     "static/media/appart.b7eb965f.jpg": "/ufchh/static/media/appart.b7eb965f.jpg",
     "static/media/bureau.4589f90c.jpg": "/ufchh/static/media/bureau.4589f90c.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.200a0d40.js",
     "static/js/2.a33a994f.chunk.js",
-    "static/css/main.b6a96a4e.chunk.css",
-    "static/js/main.76446454.chunk.js"
+    "static/css/main.3e5a768b.chunk.css",
+    "static/js/main.b6a7e32b.chunk.js"
   ]
 }
