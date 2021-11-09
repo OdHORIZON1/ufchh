@@ -1,0 +1,9 @@
+.sndb{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(61, 7, 7);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}

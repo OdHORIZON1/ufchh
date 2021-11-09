@@ -1,0 +1,39 @@
+.h3d{
+    width: 100vw;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: rgb(35, 5, 73);
+}
+
+.h3dh1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+.des, .dir, .desi{
+    width: 90%;
+    min-height: 150px;
+}
+
+.des img, .dir img, .desi img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.destitle{
+    margin-bottom: 20px;
+    color: white;
+    font-family: Lobster;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 20px;
+}

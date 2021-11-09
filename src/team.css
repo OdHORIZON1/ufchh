@@ -1,0 +1,116 @@
+.team{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(52, 29, 59, .4);
+}
+
+.c-title{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: black;
+}
+
+.members{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.member{
+    width: 90%;
+    display: flex;
+    min-height: 300px;
+}
+
+.m-image{
+  width: 3s0%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-image img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.m-info{
+    height: 100%;
+    width: 70%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+
+.m-name{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.m-d{
+    font-family: Montserrat;
+    min-height: 50px;
+    word-wrap: break-word;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:1080px){
+    .member{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .m-name{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .m-d{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+    .m-image, .m-info{
+        margin-bottom: 14px;
+    }
+}
+
+@media screen and (max-width:720px){
+    .m-d{
+        text-align: center;
+    }
+}

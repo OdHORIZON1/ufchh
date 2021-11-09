@@ -1,0 +1,9 @@
+.sndv{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(3, 213, 228);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}

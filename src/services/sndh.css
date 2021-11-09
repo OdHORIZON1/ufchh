@@ -1,0 +1,50 @@
+.sndh{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(54, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.sstitle{
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sscontainer{
+    width: 90%;
+    min-height: 60vh;
+    
+    
+}
+
+.ssimage{
+    float: left;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.ssp{
+    font-family: Montserrat;
+    font-size: 20px;
+    float: none;
+    letter-spacing: 2px;
+    color: white;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:720px){
+    .ssimage{
+        width: 100vw;
+        object-fit: cover;
+    }
+}

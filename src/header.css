@@ -1,0 +1,258 @@
+.header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+}
+
+.logo{
+    height: 100%;
+    min-width: 20%;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 80%;
+    height: 100%;
+}
+
+.navbar{
+   
+    height: 100%;
+    width: 60%;
+    display: flex;
+    margin-right: 20px;
+    font-family: Montserrat;
+}
+
+.nav_links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    list-style: none;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#down{
+    color:black;
+    font-size: 1.5rem;
+}
+
+
+.hamburger{
+    width: 100px;
+    height: 50px;
+    margin-right: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+.line{
+    width: 20px;
+    height: 3px;
+    color: black;
+    background: black;
+    margin-bottom: 3px;
+}
+
+
+.navbarhidden{
+    width: 50vw;
+    height: 90vh;
+    overflow-y: auto;
+    background: chocolate;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    display: none;
+    z-index: 7;
+}
+
+
+.nav_linksh{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+#servli{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 50px;
+    width: 100%;
+   
+}
+
+.gath{
+    display: flex;
+}
+
+.linksh{
+    list-style: none;
+    width: 100%;
+    min-height: 80px;
+    overflow-y: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.linkh{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.linkh:hover{
+    color: teal;
+}
+
+.nav-linkshidden{
+  
+   width: 60%;
+   height: 350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 5px 0px;
+  
+   
+}
+
+.lihidden{
+    list-style: none;
+    width: 90%;
+    height: 40px;
+    text-align: center;
+   
+    margin-bottom: 5px;
+    
+}
+
+.link:hover{
+color: rgb(82, 48, 233);
+}
+
+.linkhidden{
+    text-decoration: none;
+    color: rgb(82, 48, 233);
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.linkhidden:hover{
+    color: rgb(224, 148, 77);
+}
+
+.line1-open{
+    transform: rotate(45deg) translateX(25%) translateY(20%);
+    transition: .8s all ease-in-out;
+}
+
+.line2-open{
+    display: none;
+}
+
+.line3-open{
+    transform: rotate(-45deg) translateX(20%) translateY(25%);
+    transition: .8s all ease-in-out;
+}
+
+.header-scroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: white;
+}
+.header-noScroll{
+    position: relative;
+}
+
+@media screen and (max-width:1020px){
+
+    .navbar{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+    
+    .nav-linkshidden{
+        width: 100%;
+    }
+
+    .linksh{
+        min-height: 50px;
+        width: 90%;
+    }
+
+  .nav-linkshidden{
+      padding-top: 100px;
+  }
+
+  .linkhidden{
+    font-size: 16px;
+}
+
+.navbarhidden{
+    display: flex;
+}
+  
+}
+
+@media screen and (max-height:600px){
+    .lihidden{
+        width: 100%;
+        height: 20px;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .linkhidden{
+        font-size: 15px;
+    }
+}
+
+

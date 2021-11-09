@@ -1,0 +1,9 @@
+.sndr{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(134, 124, 26);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}

@@ -1,0 +1,188 @@
+.demande{
+    width:100vw;
+    min-height:70vh;
+    display:flex;
+    position: relative;
+    background-image: url("./serv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 60%;
+}
+
+.demandearticle1{
+    width:40%;
+    height:100%;
+    background:transparent;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:20px;
+
+}
+
+.demande1{
+    width:90%;
+    height:150px;
+    border-radius:5px;
+    display:flex;
+    margin-top:10px;
+    background:rgb(102, 12, 102);
+    z-index: 3;
+}
+
+.demande1:hover{
+    background: rgb(184, 74, 184);
+    transition: 1s all ease-in-out ;
+    cursor:pointer;
+}
+
+.spanicone{
+    width:30%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.spandata{
+    display:flex;
+    flex-direction:column;
+    width:90%;
+    height:100%;
+    padding-top:20px;
+    padding-left:10px;
+}
+
+.spanicone i{
+    color:pink;
+    font-size:3rem;
+}
+
+.spantitle{
+    color:white;
+    font-family:Lobster;
+    font-size:22px;
+    letter-spacing:2px;
+}
+
+.spaninfo{
+    font-family:Montserrat;
+    font-size:20px;
+    margin-top:10px;
+}
+
+.demandearticle2{
+    width:50%;
+    height:100%;
+    padding-top:20px;
+    display:flex;
+    justify-content:center;
+    z-index: 3;
+    background: rgba(0, 0, 0, .5);
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.demandeform{
+    width:90%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:20px;
+}
+
+.demandeform span{
+    width:90%;
+    height:40px;
+    margin-bottom:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.demandeform input[type=text]{
+    height:80%;
+    width:100%;
+    padding-left:10px;
+    border-radius: 6px;
+}
+
+.fname, .lname{
+    width:40%;
+    margin-right:5px;
+}
+
+#message{
+    min-height:200px;
+    color:white;
+    display:flex;
+    justify-content:left;
+}
+
+.messagee{
+    resize:none;
+    padding:10px;
+    background: rgba(255, 255, 255, .4);
+}
+
+.label{
+    width:100%;
+ 
+}
+
+#servicesinput{
+    width: 100%;
+    height: 40px;
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+
+.demandemask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(53, 1, 54, 0.6);
+    z-index: 2;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+  }
+
+  .demandeform input{
+      background: rgba(255, 255, 255, .4);
+  }
+
+  @media screen and (max-width:920px){
+      .demandearticle1{
+          display: flex;
+          flex-direction: column;
+          width: 100vw;
+      }
+
+      .demandearticle2{
+         
+          width: 90vw;
+      }
+
+      .demande{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-position-y: center;
+          background-position-x: center;
+      }
+  }
